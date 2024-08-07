@@ -8,7 +8,7 @@ import CountryDetailsPage from "./pages/CountryDetails";
 
 const routes = createBrowserRouter([
   {
-    path: "/CountriesAPI",
+    path: "/",
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },

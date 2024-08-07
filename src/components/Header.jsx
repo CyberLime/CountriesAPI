@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header className="bg-[--element] flex items-center justify-between px-12 py-4">
-      <Link to="/CountriesAPI" className="text-[--text] text-xl font-bold">Where in the world?</Link>
+      <Link to="/" className="text-[--text] text-xl font-bold">Where in the world?</Link>
       <button
         onClick={handleChangeTheme}
         className="bg-[--element] flex items-center gap-2"
